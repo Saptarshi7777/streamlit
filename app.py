@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 st.header("The Data is here!!!")
-df=pd.read_csv("C:\\Users\\User\\OneDrive\\Desktop\\Datasets\\House_Rent_Dataset.csv")
+df=pd.read_csv("House_Rent_Dataset.csv")
 st.write(df)
 
 def stats(dataframe):
